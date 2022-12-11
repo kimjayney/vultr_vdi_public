@@ -68,3 +68,9 @@ npx wrangler secret put VULTR_API_KEY
 # 개발 시 참고한 링크
 - https://www.netapp.com/ko/virtual-desktop-infrastructure/what-is-virtual-desktop-infrastructure/
 - https://developers.cloudflare.com/workers/tutorials/build-a-slackbot/
+
+# Todo
+- AWS Spot GPU Instance with Terraform
+- Linode Terraform 
+- GCP Terraform
+- Conoha Terraform
