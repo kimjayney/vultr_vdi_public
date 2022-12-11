@@ -55,8 +55,7 @@ jobs:
             -X POST \
             -H "Content-Type: application/json" \
             --data '{
-              "instance_id" : "${{ steps.vars.outputs.INSTANCE_ID }}" 
-              "live" : true
+              "instance_id" : "${{ steps.vars.outputs.INSTANCE_ID }}"  
             }'
       - name: Send custom JSON data to Slack workflow
         id: slack
